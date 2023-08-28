@@ -5,7 +5,6 @@
 	<parameter name="browserType" value="edge" />
 	<test name="test-1">
 		<classes>
-			<class name="com.spreecom.test.Spreecom_Login_Test" />
 			<class name="com.spreecom.test.Spreecom_WomenPage_Test" />
 			<class name="com.spreecom.test.Spreecom_MenPage_Test" />
 			<class name="com.spreecom.test.Spreecom_SportswearPage_Test" />

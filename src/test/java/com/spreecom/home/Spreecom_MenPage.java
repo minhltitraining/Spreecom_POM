@@ -9,8 +9,6 @@ import org.testng.Assert;
 public class Spreecom_MenPage {
 	private WebDriver driver;
 	
-	
-	
 	@FindBy(xpath = "//div[@class='py-md-3 text-uppercase taxon-title'][normalize-space()='Men']")
 	WebElement txtMen;
 	

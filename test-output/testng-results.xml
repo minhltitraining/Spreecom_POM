@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-27T15:36:28 CDT" name="Page Object test example" finished-at="2023-08-27T15:37:42 CDT" duration-ms="73683">
+  <suite started-at="2023-08-28T19:52:51 UTC" name="Page Object test example" finished-at="2023-08-28T19:53:26 UTC" duration-ms="34850">
     <groups>
     </groups>
-    <test started-at="2023-08-27T15:36:28 CDT" name="test-1" finished-at="2023-08-27T15:37:42 CDT" duration-ms="73683">
+    <test started-at="2023-08-28T19:52:51 UTC" name="test-1" finished-at="2023-08-28T19:53:26 UTC" duration-ms="34850">
       <class name="com.spreecom.test.Spreecom_MenPage_Test">
-        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:05 CDT" name="initializeTestBaseSetup" finished-at="2023-08-27T15:37:16 CDT" duration-ms="10590" status="PASS">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:04 UTC" name="initializeTestBaseSetup" finished-at="2023-08-28T19:53:12 UTC" duration-ms="8273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,78 +23,66 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method signature="validateWomenPage(java.lang.String,java.lang.String)[pri:1, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:16 CDT" name="validateWomenPage" data-provider="validLogin" finished-at="2023-08-27T15:37:22 CDT" duration-ms="5599" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[minh@spree.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateWomenPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:16 CDT" name="setUp" finished-at="2023-08-27T15:37:16 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:12 UTC" name="setUp" finished-at="2023-08-28T19:53:12 UTC" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:22 CDT" name="tearDown" finished-at="2023-08-27T15:37:22 CDT" duration-ms="0" status="PASS">
+        <test-method signature="validateWomenPage()[pri:1, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:12 UTC" name="validateWomenPage" finished-at="2023-08-28T19:53:14 UTC" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWomenPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:14 UTC" name="tearDown" finished-at="2023-08-28T19:53:14 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateWomenPage status=SUCCESS method=Spreecom_MenPage_Test.validateWomenPage(java.lang.String,java.lang.String)[pri:1, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731] output={null}]]]>
+                <![CDATA[[TestResult name=validateWomenPage status=SUCCESS method=Spreecom_MenPage_Test.validateWomenPage()[pri:1, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:22 CDT" name="validateTitle" finished-at="2023-08-27T15:37:22 CDT" duration-ms="9" status="PASS">
+        <test-method signature="validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:14 UTC" name="validateTitle" finished-at="2023-08-28T19:53:14 UTC" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:22 CDT" name="tearDown" finished-at="2023-08-27T15:37:22 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:14 UTC" name="tearDown" finished-at="2023-08-28T19:53:14 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateTitle status=SUCCESS method=Spreecom_MenPage_Test.validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731] output={null}]]]>
+                <![CDATA[[TestResult name=validateTitle status=SUCCESS method=Spreecom_MenPage_Test.validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateText()[pri:3, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:22 CDT" name="validateText" finished-at="2023-08-27T15:37:22 CDT" duration-ms="675" status="PASS">
+        <test-method signature="validateText()[pri:3, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:14 UTC" name="validateText" finished-at="2023-08-28T19:53:14 UTC" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:22 CDT" name="tearDown" finished-at="2023-08-27T15:37:23 CDT" duration-ms="1172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731]" started-at="2023-08-27T15:37:22 CDT" name="tearDown" finished-at="2023-08-27T15:37:22 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:14 UTC" name="tearDown" finished-at="2023-08-28T19:53:14 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateText status=SUCCESS method=Spreecom_MenPage_Test.validateText()[pri:3, instance:com.spreecom.test.Spreecom_MenPage_Test@198b6731] output={null}]]]>
+                <![CDATA[[TestResult name=validateText status=SUCCESS method=Spreecom_MenPage_Test.validateText()[pri:3, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa] output={null}]]]>
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spreecom.test.Spreecom_MenPage_Test@610f7aa]" started-at="2023-08-28T19:53:14 UTC" name="tearDown" finished-at="2023-08-28T19:53:16 UTC" duration-ms="1406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.spreecom.test.Spreecom_MenPage_Test -->
-      <class name="com.spreecom.test.Spreecom_Login_Test">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:28 CDT" name="SetUp" finished-at="2023-08-27T15:36:28 CDT" duration-ms="99" status="PASS">
+      <class name="com.spreecom.test.Spreecom_WomenPage_Test">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:52:51 UTC" name="SetUp" finished-at="2023-08-28T19:52:52 UTC" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:28 CDT" name="initializeTestBaseSetup" finished-at="2023-08-27T15:36:39 CDT" duration-ms="11248" status="PASS">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:52:52 UTC" name="initializeTestBaseSetup" finished-at="2023-08-28T19:53:00 UTC" duration-ms="8232" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,169 +98,62 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:39 CDT" name="setUp" finished-at="2023-08-27T15:36:39 CDT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:00 UTC" name="setUp" finished-at="2023-08-28T19:53:00 UTC" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoTest()[pri:1, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:39 CDT" name="logoTest" description="validateLogo() method call for logo verification in base page" finished-at="2023-08-27T15:36:40 CDT" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:40 CDT" name="tearDown" finished-at="2023-08-27T15:36:40 CDT" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=logoTest status=SUCCESS method=Spreecom_Login_Test.logoTest()[pri:1, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="validateLogoAfterValidLogin1(java.lang.String,java.lang.String)[pri:2, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:40 CDT" name="validateLogoAfterValidLogin1" description="verify Logo after login" data-provider="validLogin" finished-at="2023-08-27T15:36:44 CDT" duration-ms="4037" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[minh@spree.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLogoAfterValidLogin1 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:44 CDT" name="tearDown" finished-at="2023-08-27T15:36:44 CDT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateLogoAfterValidLogin1 status=SUCCESS method=Spreecom_Login_Test.validateLogoAfterValidLogin1(java.lang.String,java.lang.String)[pri:2, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="validateUncessfullLoginMessage(java.lang.String,java.lang.String)[pri:3, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:44 CDT" name="validateUncessfullLoginMessage" description="verify unsuccessful message after invalid login" data-provider="invalidLogin" finished-at="2023-08-27T15:36:46 CDT" duration-ms="2138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[minh@spree.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345678]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUncessfullLoginMessage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:46 CDT" name="tearDown" finished-at="2023-08-27T15:36:46 CDT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validateUncessfullLoginMessage status=SUCCESS method=Spreecom_Login_Test.validateUncessfullLoginMessage(java.lang.String,java.lang.String)[pri:3, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spreecom.test.Spreecom_Login_Test@5bda8e08]" started-at="2023-08-27T15:36:46 CDT" name="tearDown" finished-at="2023-08-27T15:36:47 CDT" duration-ms="1298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.spreecom.test.Spreecom_Login_Test -->
-      <class name="com.spreecom.test.Spreecom_WomenPage_Test">
-        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:36:47 CDT" name="initializeTestBaseSetup" finished-at="2023-08-27T15:36:58 CDT" duration-ms="11065" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.spreecommerce.org/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeTestBaseSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:36:58 CDT" name="setUp" finished-at="2023-08-27T15:36:58 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateWomenPage(java.lang.String,java.lang.String)[pri:1, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:36:58 CDT" name="validateWomenPage" data-provider="validLogin" finished-at="2023-08-27T15:37:04 CDT" duration-ms="5501" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[minh@spree.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateWomenPage()[pri:1, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:00 UTC" name="validateWomenPage" finished-at="2023-08-28T19:53:02 UTC" duration-ms="2122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWomenPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:37:04 CDT" name="tearDown" finished-at="2023-08-27T15:37:04 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:02 UTC" name="tearDown" finished-at="2023-08-28T19:53:02 UTC" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateWomenPage status=SUCCESS method=Spreecom_WomenPage_Test.validateWomenPage(java.lang.String,java.lang.String)[pri:1, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613] output={null}]]]>
+                <![CDATA[[TestResult name=validateWomenPage status=SUCCESS method=Spreecom_WomenPage_Test.validateWomenPage()[pri:1, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:37:04 CDT" name="validateTitle" finished-at="2023-08-27T15:37:04 CDT" duration-ms="9" status="PASS">
+        <test-method signature="validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:02 UTC" name="validateTitle" finished-at="2023-08-28T19:53:02 UTC" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:37:04 CDT" name="tearDown" finished-at="2023-08-27T15:37:04 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:02 UTC" name="tearDown" finished-at="2023-08-28T19:53:02 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateTitle status=SUCCESS method=Spreecom_WomenPage_Test.validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613] output={null}]]]>
+                <![CDATA[[TestResult name=validateTitle status=SUCCESS method=Spreecom_WomenPage_Test.validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateText()[pri:3, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:37:04 CDT" name="validateText" finished-at="2023-08-27T15:37:04 CDT" duration-ms="699" status="PASS">
+        <test-method signature="validateText()[pri:3, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:02 UTC" name="validateText" finished-at="2023-08-28T19:53:02 UTC" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateText -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:37:04 CDT" name="tearDown" finished-at="2023-08-27T15:37:04 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:02 UTC" name="tearDown" finished-at="2023-08-28T19:53:02 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateText status=SUCCESS method=Spreecom_WomenPage_Test.validateText()[pri:3, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613] output={null}]]]>
+                <![CDATA[[TestResult name=validateText status=SUCCESS method=Spreecom_WomenPage_Test.validateText()[pri:3, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@3857f613]" started-at="2023-08-27T15:37:04 CDT" name="tearDown" finished-at="2023-08-27T15:37:05 CDT" duration-ms="1168" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spreecom.test.Spreecom_WomenPage_Test@6ff29830]" started-at="2023-08-28T19:53:02 UTC" name="tearDown" finished-at="2023-08-28T19:53:04 UTC" duration-ms="1645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.spreecom.test.Spreecom_WomenPage_Test -->
       <class name="com.spreecom.test.Spreecom_SportswearPage_Test">
-        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:23 CDT" name="initializeTestBaseSetup" finished-at="2023-08-27T15:37:34 CDT" duration-ms="10580" status="PASS">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String,java.lang.String)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:16 UTC" name="initializeTestBaseSetup" finished-at="2023-08-28T19:53:23 UTC" duration-ms="6765" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -288,68 +169,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:34 CDT" name="setUp" finished-at="2023-08-27T15:37:34 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:23 UTC" name="setUp" finished-at="2023-08-28T19:53:23 UTC" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateSportswearPage(java.lang.String,java.lang.String)[pri:1, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:34 CDT" name="validateSportswearPage" data-provider="validLogin" finished-at="2023-08-27T15:37:40 CDT" duration-ms="5682" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[minh@spree.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="validateSportswearPage()[pri:1, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:23 UTC" name="validateSportswearPage" finished-at="2023-08-28T19:53:25 UTC" duration-ms="2103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSportswearPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:40 CDT" name="tearDown" finished-at="2023-08-27T15:37:40 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:25 UTC" name="tearDown" finished-at="2023-08-28T19:53:25 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateSportswearPage status=SUCCESS method=Spreecom_SportswearPage_Test.validateSportswearPage(java.lang.String,java.lang.String)[pri:1, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7] output={null}]]]>
+                <![CDATA[[TestResult name=validateSportswearPage status=SUCCESS method=Spreecom_SportswearPage_Test.validateSportswearPage()[pri:1, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:40 CDT" name="validateTitle" finished-at="2023-08-27T15:37:40 CDT" duration-ms="8" status="PASS">
+        <test-method signature="validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:25 UTC" name="validateTitle" finished-at="2023-08-28T19:53:25 UTC" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:40 CDT" name="tearDown" finished-at="2023-08-27T15:37:40 CDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:25 UTC" name="tearDown" finished-at="2023-08-28T19:53:25 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateTitle status=SUCCESS method=Spreecom_SportswearPage_Test.validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7] output={null}]]]>
+                <![CDATA[[TestResult name=validateTitle status=SUCCESS method=Spreecom_SportswearPage_Test.validateTitle()[pri:2, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="validateText()[pri:3, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:40 CDT" name="validateText" finished-at="2023-08-27T15:37:40 CDT" duration-ms="571" status="PASS">
+        <test-method signature="validateText()[pri:3, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:25 UTC" name="validateText" finished-at="2023-08-28T19:53:25 UTC" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateText -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:40 CDT" name="tearDown" finished-at="2023-08-27T15:37:40 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:25 UTC" name="tearDown" finished-at="2023-08-28T19:53:25 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateText status=SUCCESS method=Spreecom_SportswearPage_Test.validateText()[pri:3, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7] output={null}]]]>
+                <![CDATA[[TestResult name=validateText status=SUCCESS method=Spreecom_SportswearPage_Test.validateText()[pri:3, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@7c6908d7]" started-at="2023-08-27T15:37:40 CDT" name="tearDown" finished-at="2023-08-27T15:37:42 CDT" duration-ms="1171" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.spreecom.test.Spreecom_SportswearPage_Test@6a03bcb1]" started-at="2023-08-28T19:53:25 UTC" name="tearDown" finished-at="2023-08-28T19:53:26 UTC" duration-ms="1387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

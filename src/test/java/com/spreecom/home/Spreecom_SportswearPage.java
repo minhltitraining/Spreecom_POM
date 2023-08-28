@@ -26,7 +26,6 @@ public class Spreecom_SportswearPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
 	public void validateURL() {
 		String expURL = "https://demo.spreecommerce.org/t/categories/sportswear";
 		String actURL = driver.getCurrentUrl();
@@ -44,6 +43,5 @@ public class Spreecom_SportswearPage {
 		txtTops.isDisplayed();
 		txtSweatshirts.isDisplayed();
 		txtPants.isDisplayed();
-		
 	}
 }

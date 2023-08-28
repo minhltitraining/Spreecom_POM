@@ -77,7 +77,7 @@ public class Spreecom_BaseSetup {
 		//System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		driver.navigate().to(appURL);
 		Thread.sleep(3000);
 		return driver;
@@ -87,7 +87,7 @@ public class Spreecom_BaseSetup {
 		System.out.println("Launching Firefox browser..");
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		driver.manage().window().maximize();
 		driver.navigate().to(appURL);
 		Thread.sleep(3000);
@@ -98,7 +98,7 @@ public class Spreecom_BaseSetup {
 		System.out.println("Launching Edge browser..");
 		WebDriverManager.edgedriver().setup();
 		WebDriver driver = new EdgeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		driver.manage().window().maximize();
 		driver.navigate().to(appURL);
 		Thread.sleep(3000);

@@ -5,31 +5,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.spreecom.home.Spreecom_SignInPage;
+import com.spreecom.home.Spreecom_MenPage;
+import com.spreecom.home.Spreecom_SportswearPage;
+import com.spreecom.home.Spreecom_WomenPage;
 
 public class Spreecom_BasePage {
 	private WebDriver driver;
 	
-	@FindBy(xpath = "(//img[@title='Spree Demo Site'])[1]")
-	WebElement logoSpreecom;
+
+	@FindBy(xpath = "//a[@class='nav-link main-nav-bar-item main-nav-bar-category-button dropdown-toggle'][normalize-space()='Women']")
+	WebElement linkWomen;
 	
-	@FindBy(xpath = "//button[@id='account-button']//*[name()='svg']")
-	WebElement iconAccount;
+	@FindBy(xpath = "//a[@class='nav-link main-nav-bar-item main-nav-bar-category-button dropdown-toggle'][normalize-space()='Men']")
+	WebElement linkMen;
 	
-	@FindBy(xpath = "//a[normalize-space()='LOGIN']")
-	WebElement linkLogin;
-	
-	@FindBy(id = "spree_user_email")
-	WebElement txtEmail;
-	
-	@FindBy (id = "spree_user_password")
-	WebElement txtPassword;
-	
-	@FindBy (name = "commit")
-	WebElement btnLogin;
-	
-	@FindBy (xpath = "//span[normalize-space()='Invalid email or password.']")
-	WebElement unsuccessfulLoginMessage;
+	@FindBy(xpath = "//a[@class='nav-link main-nav-bar-item main-nav-bar-category-button dropdown-toggle'][normalize-space()='Sportswear']")
+	WebElement linkSportswear;
 	
 	public WebDriver getDriver() {
 		return driver;
@@ -39,49 +30,19 @@ public class Spreecom_BasePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	
-	public boolean validateLogo() {
-		return logoSpreecom.isDisplayed();
-	}
-	
-	public boolean validateUnsuccesfulLoginMessage() {
-		return unsuccessfulLoginMessage.isDisplayed();
-	}
-	public Spreecom_SignInPage signInToSpreecom(String email, String password) throws Exception {
-		clickIconAccount();
-//		Thread.sleep(2000);
-		clickLinkLogIn();
-//		Thread.sleep(2000);
-		enterEmail(email);
-		enterPassword(password);
-		submitButton();
-//		Thread.sleep(2000);
-		return new Spreecom_SignInPage(driver);
-	}
 
-	private void clickLinkLogIn() {
-		linkLogin.click();
-		
-	}
-
-	private void clickIconAccount() {
-		iconAccount.click();
-		
-	}
-
-	private void submitButton() {
-		btnLogin.click();
-	}
-
-	private void enterPassword(String password) {
-		txtPassword.clear();
-		txtPassword.sendKeys(password);
-	}
-
-	private void enterEmail(String email) {
-		txtEmail.clear();
-		txtEmail.sendKeys(email);
+	public Spreecom_WomenPage goToWomenPage() {
+		linkWomen.click();
+		return new Spreecom_WomenPage(driver);
 	}
 	
+	public Spreecom_MenPage goToMenPage() {
+		linkMen.click();
+		return new Spreecom_MenPage(driver);
+	}
+	
+	public Spreecom_SportswearPage goToSportswearPage() {
+		linkSportswear.click();
+		return new Spreecom_SportswearPage(driver);
+	}
 }
